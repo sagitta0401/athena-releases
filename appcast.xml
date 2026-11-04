@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Athena</title>
+        <link>https://github.com/sagitta0401/athena-releases/releases</link>
+        <description>Updates of Athena for macOS on Apple Silicon. Written by scripts/release.sh with Sparkle's generate_appcast; do not edit by hand.</description>
+        <language>en</language>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Wed, 04 Nov 2026 18:03:40 +0300</pubDate>
+            <link>https://github.com/sagitta0401/athena-releases/releases</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/sagitta0401/athena-releases/releases/tag/v0.1.0</sparkle:fullReleaseNotesLink>
+            <sparkle:version>462</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### Added
+
+- Vaults of Markdown notes, created new or copied from an Obsidian vault, with the library sidebar, search and topics.
+- Workspace with tabs, pinned and preview tabs, and split panes that come back after a relaunch.
+- Note editing and reading views, renames that rewrite the links to the note, English and Russian, light and dark.
+- Live preview: Markdown renders as you type, with formulas, Mermaid diagrams, highlighted code, tables and embedded notes.
+- Link previews on hover, and ⌘-click to open a link.
+- Autocompletion of links, headings, blocks and tags, and an insert menu.
+- Find and replace in a note, spelling with Look Up, and a properties editor for the note's frontmatter.
+- Every command in Settings › Keys, with keys you can change.
+- Chat with the AI over Anthropic models or free OpenRouter models, kept as Markdown transcripts in the vault.
+- The book reader: PDF import with chapters, a dark page theme, highlights and bookmarks, clips for the AI and citation links back to the page.
+- The graph of notes with topics, focus and the inspector.
+- In-app updates: a daily check, the update banner with Install and Later, and beta versions on request.
+- First run: choose a vault, add AI keys and a language, then a Welcome note in a new vault that opens first.
+- Settings › Reader sets the default page theme and page layout; Settings › General exports a diagnostics zip.
+]]></description>
+            <enclosure url="https://github.com/sagitta0401/athena-releases/releases/download/v0.1.0/Athena-0.1.0.zip" length="19321805" type="application/octet-stream" sparkle:edSignature="fGC6UzvE++SBn6K3FSUkr3qCJRPhBVfctRP5QzuVX+cMMgn4uMxAT7q9U6nh5hPX9iG/rtoO4nHg3jySdUodBg=="/>
+        </item>
+    </channel>
+</rss>
