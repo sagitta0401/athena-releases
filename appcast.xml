@@ -6,6 +6,70 @@
         <description>Updates of Athena for macOS on Apple Silicon. Written by scripts/release.sh with Sparkle's generate_appcast; do not edit by hand.</description>
         <language>en</language>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Thu, 05 Nov 2026 13:44:54 +0300</pubDate>
+            <link>https://github.com/sagitta0401/athena-releases/releases</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/sagitta0401/athena-releases/releases/tag/v0.2.0</sparkle:fullReleaseNotesLink>
+            <sparkle:version>868</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### Added
+
+- Quick switcher on ⌘O for notes, chats, books with their chapters, aliases and headings.
+- Command palette on ⌘P with every command that works where you are, its keys and your recent ones.
+- Replace across the vault in the search tab, with a preview, a checkbox per match and Undo.
+- The inspector shows each backlink with its sentence, and unlinked mentions with Link and Link All.
+- Rename with a preview of the links it rewrites (⌘⇧R), Move to Folder, Merge With… and Extract Selection to New Note.
+- Copy Link, Copy Link to Block and Open Link Beside in the editor's context menu; Rename and Move to Trash in the tab strip and the sidebar.
+- Links to a heading or a block open the note scrolled to it.
+- Renaming a note also rewrites its links in AI chat transcripts.
+- Templates: Insert Template (⌥⌘T), New Note from Template and template items in the / menu, with five bundled templates in English and Russian; Obsidian's template and daily-note settings are used.
+- The daily note on ⌘⇧D, and Today at the top of the sidebar's Folders view.
+- The sidebar's Folders view with every folder and file and their counts, a context menu, and drag and drop of notes and tabs onto folders.
+- Versions in the inspector: every saved version of a note with its author, the difference, Restore and Compare with Current.
+- Trash: deleted notes go to the vault's .trash folder or the system Trash, with restore, empty and a 30-day clean-up.
+- When an update changes the bundled templates, a sheet shows the difference for each file, with Keep Mine.
+- Chat branches: Retry under any answer, Branch from Here, edit and resend a message, and a switcher between the branches.
+- Pick notes, books, chapters or chats as context for a chat message, with its size and cost shown before sending.
+- To Note under an answer turns it into a note.
+- Chat answers appear smoothly while they stream.
+- AI on selected text from the right-click menu: Explain, Rewrite, Expand, Shorten and Custom Edit, with the model and the cost shown first; edits come back as changes you accept or reject piece by piece.
+- AI suggestions in the inspector: links and tags the note could use, each with Apply, and Apply All.
+- Text zoom with ⌘+, ⌘− and ⌘0 for notes and chats, with note text at 16 pt by default.
+- Images dropped or pasted into a note are copied into the vault's attachment folder and shown in place; a click opens them in their own tab.
+- Images dragged from Finder or the desktop into a chat are attached to the message.
+- Quick Look for attachments in the sidebar's Folders view, and a setting for the attachment folder.
+- Settings › Editor: the view new tabs open in, line numbers, and the editor's switches in one place.
+- Several shortcuts for one command in Settings › Keys.
+- A status bar at the bottom right of the window with the note's backlinks, words and characters, or the selection's.
+- Reader zoom: ⌥-scroll around the pointer, a zoom control with the percentage, Actual Size (⌘0), Fit Width (⌘9) and ⌘= as well as ⌘+.
+- Arrowheads on graph links show which note links to which, with an Arrows switch in the graph's filters.
+
+### Changed
+
+- Show in Graph is a palette command instead of a button in the inspector.
+- Clicking a heading in the inspector's Structure flashes it and puts the caret at its start.
+- Dragging a tab no longer moves the window.
+- Switching between light and dark fades, as in the system's own apps.
+- One inspector for the whole window that follows the focused pane and slides in and out.
+- Sidebar disclosure arrows sit at the end of the row, and icons are optically centred.
+- Pane dividers highlight on hover and while you drag them.
+- Graph labels have no outline, and highlighting fades in and out.
+- The reader's selection and new highlights cover the whole height of the text.
+- The reader scrolls smoothly with the arrow keys, Space and Page Up/Down, and its page theme fades.
+
+### Fixed
+
+- Links inside PDFs follow the same safety rules as links in notes.
+- Highlights are kept when you quit while a PDF is being saved, and a book tab no longer comes back blank.
+- Searching inside a book no longer holds up the window.
+- Rare chat failures around OpenRouter limits, refusals and cost reports.
+- Logs no longer record the paths of your files.
+]]></description>
+            <enclosure url="https://github.com/sagitta0401/athena-releases/releases/download/v0.2.0/Athena-0.2.0.zip" length="24468510" type="application/octet-stream" sparkle:edSignature="gYHgWJ30kAAd6daSzXb/9Pp/xveNqd5AJFORTEMuZRG+61Gg3qyCDuIFu0L5uCAuPZ5YSp1GaA+4JtUBthp4CQ=="/>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Wed, 04 Nov 2026 18:03:40 +0300</pubDate>
             <link>https://github.com/sagitta0401/athena-releases/releases</link>
