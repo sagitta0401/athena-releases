@@ -6,6 +6,21 @@
         <description>Updates of Athena for macOS on Apple Silicon. Written by scripts/release.sh with Sparkle's generate_appcast; do not edit by hand.</description>
         <language>en</language>
         <item>
+            <title>0.2.2</title>
+            <pubDate>Thu, 05 Nov 2026 20:25:53 +0300</pubDate>
+            <link>https://github.com/sagitta0401/athena-releases/releases</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/sagitta0401/athena-releases/releases/tag/v0.2.2</sparkle:fullReleaseNotesLink>
+            <sparkle:version>891</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### Fixed
+
+- Opening a book whose text has web addresses, dates or phone numbers no longer crashes the app.
+]]></description>
+            <enclosure url="https://github.com/sagitta0401/athena-releases/releases/download/v0.2.2/Athena-0.2.2.zip" length="24626548" type="application/octet-stream" sparkle:edSignature="U/4f89uBi+z1xs+4uRePrf6se7eTgE6TFRFUHHqr1w9eK7lAbCOQvVjRWrLbMr6zzvOWalm7KiZHkiuLZpI0Bg=="/>
+        </item>
+        <item>
             <title>0.2.1</title>
             <pubDate>Thu, 05 Nov 2026 18:24:14 +0300</pubDate>
             <link>https://github.com/sagitta0401/athena-releases/releases</link>
