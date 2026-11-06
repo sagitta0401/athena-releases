@@ -6,6 +6,56 @@
         <description>Updates of Athena for macOS on Apple Silicon. Written by scripts/release.sh with Sparkle's generate_appcast; do not edit by hand.</description>
         <language>en</language>
         <item>
+            <title>0.2.3</title>
+            <pubDate>Fri, 06 Nov 2026 13:28:06 +0300</pubDate>
+            <link>https://github.com/sagitta0401/athena-releases/releases</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/sagitta0401/athena-releases/releases/tag/v0.2.3</sparkle:fullReleaseNotesLink>
+            <sparkle:version>951</sparkle:version>
+            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[### Added
+
+- Code blocks have a header with the language and a copy button, rounded corners and wrapped lines, in the editor and in reading mode.
+- The [[ link suggestions show a larger preview of the note, drawn as in reading mode, that scrolls with ⌥↑ and ⌥↓.
+- Quotes, `*`, `_` and backticks close themselves as you type; `~~` and `==` close when typed twice.
+- Return after an opening ``` adds the closing fence.
+- Lines underlined with `===` or `---` show as headings in the editor too.
+- PDFs dragged from Finder onto the sidebar start the book import wherever they land, several at once.
+- The word and character counts in the status bar follow your typing, and their digits roll up or down.
+- ⌘Z and ⇧⌘Z undo and redo adding, recolouring and removing highlights in books.
+
+### Changed
+
+- Comparing note versions is redesigned: two-column and one-column views, word-level marks, folded unchanged lines and ⌥⌘↑↓ between changes.
+- Restoring a version asks nothing: it saves a "before restoring" version first, and ⌘Z undoes it.
+- The second onboarding step is redesigned: Check on both cards, a saved key shows its last four characters, and the status appears only after Check.
+- The note header puts a larger title first and the properties under it, in compact rows.
+- Line numbers are centred on the first row of each line, as in Obsidian.
+- Inline code uses a smaller monospaced font on a rounded background, in both views.
+- A right-click on a book highlight shows Athena's own selection menu with Remove Highlight; PDFKit's page and zoom items are gone from it.
+- Choosing a colour for a selection that overlaps highlights recolours them and highlights the rest, instead of stacking a second highlight.
+- The selection on a dark book page uses the system's selection colour, and the text stays readable.
+
+### Fixed
+
+- Remove Highlight in books works, also on a dark page.
+- Jumping to a chapter on a dark or sepia page no longer flashes the page white.
+- Links and web addresses take their colour as you type them.
+- A line of `---`, `***` or `___` shows as a horizontal rule in the editor.
+- The empty line the caret stands on gets its line number before you type on it.
+- The "Compare with Current…" window closes with its Close button, Esc, ⌘W and ⌘.
+- Dragging a tab no longer drags the window, also right after switching Spaces or showing the app again.
+- The resize cursor shows along the whole length of every divider.
+- The text of your chat messages is centred in its bubble.
+- The search tab's icons are one size, and the highlight behind a found word fits the word.
+- The "+ Add Property" line is no longer cut off at larger interface zoom.
+- The status bar no longer loses the word "characters".
+- In the dark theme the area behind the note header matches the page.
+]]></description>
+            <enclosure url="https://github.com/sagitta0401/athena-releases/releases/download/v0.2.3/Athena-0.2.3.zip" length="25271150" type="application/octet-stream" sparkle:edSignature="mZ/TffeedZpEfydTPcCJ8QIYQMizHD116Pn4tJgokqdBoIaR71x36GOFzvh3BLnRbtnnl3cROMr7XPmPN+h0Cg=="/>
+        </item>
+        <item>
             <title>0.2.2</title>
             <pubDate>Thu, 05 Nov 2026 20:25:53 +0300</pubDate>
             <link>https://github.com/sagitta0401/athena-releases/releases</link>
